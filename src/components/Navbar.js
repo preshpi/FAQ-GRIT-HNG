@@ -16,8 +16,8 @@ const Navbar = () => {
           <ul className='hidden md:flex gap-6'>
           <li className="li-text lg:ml-[29px]">Home</li>
           <li className="li-text">Products</li>
-          <li className="li-text">Resources</li>
-          <li className="li-text">Pricing</li>
+          <li className="li-text">About Us</li>
+          <li className="li-text">Translate</li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>

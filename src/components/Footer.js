@@ -22,17 +22,17 @@ function Footer() {
             </div>
 
                 <div className="lg:mx-[167px] text-center">
-                    <p className="lg:mt-[8px] text-[10px] leading-[12px] ">Help</p>
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">FAQ</p>
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">Safety</p>
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">Privacy</p>
+                    <p className="lg:mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Help</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">FAQ</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Safety</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Privacy</p>
                 </div>
 
                 <div className="lg:mx-[167px] text-center">
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">About Grit grammar</p>
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">About us</p>
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">Terms</p>
-                    <p className="mt-[8px] text-[10px] leading-[12px] ">Contact us</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">About Grit grammar</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">About us</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Terms</p>
+                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Contact us</p>
                 </div>                
             </div>
  
@@ -40,13 +40,13 @@ function Footer() {
         
 
  
-        <div className="flex items-center justify-center lg:gap-[47px] gap-5 h-[54px] bg-[#185A71] text-[#FFFFFF] border-t border-[#53686A]">
-            <p className="text-[8px] lg:text=[10px] cursor-pointer font-[roboto] lg:leading-[10px] ">@2022 Gritgrammar</p>
-            <p className="text-[8px] lg:text=[10px] cursor-pointer font-[roboto] lg:leading-[10px] ">help</p>
-            <p className="text-[8px] lg:text=[10px] cursor-pointer font-[roboto] lg:leading-[10px] ">safety</p>
-            <p className="text-[8px] lg:text=[10px] cursor-pointer font-[roboto] lg:leading-[10px] ">privacy</p>
-            <p className="text-[8px] lg:text=[10px] cursor-pointer font-[roboto] lg:leading-[10px] ">terms</p>
-            <p className="text-[8px] lg:text=[10px] cursor-pointer font-[roboto] lg:leading-[10px] ">about us</p>
+        <div className="flex items-center justify-center lg:gap-[47px] gap-5 h-[54px] bg-[#185A71] text-[#FFFFFF]">
+            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">@2022 Gritgrammar</p>
+            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">help</p>
+            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">safety</p>
+            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">privacy</p>
+            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">terms</p>
+            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">about us</p>
         </div>  
     </div>
   )
