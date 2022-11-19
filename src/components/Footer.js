@@ -12,25 +12,28 @@ function Footer() {
                 </div>
             </div>
         </div>
-           <div className="bg-[#5D387F] text-[#FFFFFF]">
-            <div className="lg:flex grid grid-cols-2  items-center justify-center  place-items-center lg:h-[83px] h-[428px]">
+           <div className="bg-[#2F1C40] text-[#FFFFFF]">
+            <div className="lg:flex grid grid-cols-2  items-center justify-center  place-items-center lg:h-[83px] md:h-[211px] h-[300px]">
                 <div className="lg:flex lg:gap-[47px]">
-                <p className="text-[12px] lg:leading-[14px] hidden lg:block lg:mt-[10px]">@2022 Gritgrammar</p>                    
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Careers and Culture</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">FAQ</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Newsletter</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Privacy policy</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Terms of use</p>            
+                <p className="text-[12px] lg:leading-[15px] hidden font-[Inter] lg:block mt-[14px]">@2022 Grittygrammar</p>                    
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Careers and Culture</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">FAQ</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Newsletter</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Privacy policy</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Terms of use</p>            
                 </div>
                 <div className="lg:flex lg:gap-[47px]">
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">About us</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Api status</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Blog</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Copyright</p>
-                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Contact us</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">About us</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Api status</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Blog</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Copyright</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[15px] mt-[14px] font-[Inter]">Contact us</p>
                 </div>
             </div>
-            <p className="text-[12px] lg:leading-[14px] lg:hidden block text-center justify-center grid place-items-center">@2022 Gritgrammar</p>                    
+            <div className="p-5 lg:hidden">
+               <p className="text-[12px] lg:leading-[15px]  font-[Inter] block text-center justify-center grid place-items-center">@2022 Grittygrammar</p>                                  
+            </div>
+  
           </div>
     </div>
   )

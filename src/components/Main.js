@@ -2,7 +2,7 @@ import React from 'react'
 import { BiPurchaseTag } from 'react-icons/bi'
 function Main() {
   return (
-    <div>
+    <div className="place-items-center ">
      <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:mt-[63px] place-items-center lg:gap-3 gap-5 items-center justify-center m-5">
 
         <div className="h-full">
