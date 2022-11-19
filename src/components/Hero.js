@@ -4,19 +4,22 @@ function Hero() {
   return (
     <div className='w-full h-full flex flex-col justify-between '>
 
-        <div className="mt-[82px] h-[271px] bg-[#185A71] grid place-items-center">
-            <h3 className="mt-[47px] flex items-center justify-center text-[#FFFFFF] font-semibold leading-[18px] text-[16px]">FAQs</h3>
-            <h1 className="mt-[8px] leading-[44px] text-[#FFFFFF] font-semibold text-[38px] flex items-center justify-center">Ask us anything</h1>
-            <p className="flex items-center justify-center mt-[17px] font-normal text-[14px] leading-[22px] text-[#FFFFFF]">Have any questions? We're here to assist you.</p>
+        <div className="mt-[82px] lg:h-[271px] h-[286px] md:h-[300px]  bg-[#5D387F] grid place-items-center">
+          
+            <h3 className="lg:mt-[45px] mt-[55px] flex items-center justify-center text-[#ffffff80] font-semibold lg:leading-[24px] leading-[17px] md:leading-[20px] lg:text-[24px] md:text-[20px] text-[16px] font-[Inter]">FAQs</h3>
+            <h1 className="mt-[10px] lg:leading-[54px] leading-[38px] text-[#FFFFFF] font-semibold lg:text-[54px] md:text-[50px] text-[32px] flex items-center justify-center font-[Inter]">Ask us anything</h1>
+            <p className="flex items-center justify-center mt-[21px] font-normal lg:text-[20px] md:text-[18px] text-[16px] leading-[24px] text-center lg:leading-[30px] text-[#FFFFFF] font-[Inter] w-[297px] lg:w-[758px]">Have any questions? We're here to assist you.</p>
 
-            <div class="relative text-[#0B303E] focus-within:text-[#53686A] lg:w-[235px] lg:mb-[47px] lg:mt-[29px] mt-[27px] mb-[55px]">
+            <div class="relative text-[#0B303E] focus-within:text-[#0B303E] lg:w-[316px] lg:mb-[64px] w-[290px] lg:mt-[22px] mb-[55px] mt-[27px]">
               <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <button type="submit" class="p-1 focus:outline-none focus:shadow-outline text-[#0B303E] items-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 text-[#53686A]"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </button>
               </span>
-              <input type="search" name="q" class="py-2 text-[15px] text-[#53686A] lg:w-[235px] w-[297px] bg-[#FFFFFF] rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900" placeholder="Search here" autocomplete="off"/>
-            </div>
+              <input type="search" name="q" class="py-3 text-[22px] leading-[24px]  text-[#0B303E] lg:w-[316px] w-[290px] bg-[#FFFFFF]   rounded-md pl-10 focus:outline-none focus:bg-white focus:text-[#0B303E] placeholder:text-[#0B303E]" placeholder="Search here" autocomplete="off"/>
+            </div>            
+          
+
       </div>
 
      </div>

@@ -2,52 +2,36 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="mt-[47px]">
-        <div className="rounded-[10px] gap-[24px] bg-[#185A71] text-[#F2F2F2] lg:mx-20 m-[13px]  lg:h-[78px] h-[189px]">
-            <div className="grid lg:grid-cols-2 m-5">
+    <div className="mt-[92px]">
+        <div className="rounded-[10px] gap-[24px] bg-[#5D387F] text-[#F2F2F2] lg:mx-20 m-[13px]  lg:h-[200px] h-[199px] mb-[24px] lg:mb-[42px]">
+            <div className="grid  m-5">
                 <div className="lg:mx-[50px]">
-                <h4 className="lg:text-[14px] text-[18px]  lg:mt-[13px] mt-[27px] w-[297px]">Still have questions?</h4>
-                <p className="footertext2 lg:w-[505px] lg:mt-[5px] mt-[6px] lg:text-[11px] text-[14px] w-[240px] h-[42px] md:w-[450px]">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>                    
+                <h4 className="lg:text-[24px] text-[18px] md:text-[20px]  lg:mt-[37px] mt-[27px] w-[297px] font-[Inter]">Still have questions?</h4>
+                <p className="font-[Inter] lg:w-full lg:mt-[9px] mt-[6px] lg:text-[18px] text-[14px] w-[240px] md:w-[450px] lg:leading-[28px] leading-[21px]">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>                    
+                <button className="bg-[#5D387F] rounded-[9px] border border-[#FFFFFF] px-4 py-2 lg:mt-[27px] mt-[20px] lg:mb-[37px] mb-[27px]">Get in touch</button>
                 </div>
-
-                <div className="lg:mt-[15px] mt-[29px] md:mt-[18px]">
-                    <button className="btn-footer border border-[#FFFFFF] px-4 py-2">Get in touch</button>
-                </div>
-
             </div>
         </div>
-        <div className="flex justify-center items-center place-items-center lg:flex grid lg:grid-cols-3  lg:h-[155px] h-[300px] lg:mt-4 bg-[#185A71] text-[#FFFFFF]">
-        <div>
-            <img src={require('../images/logo1.png')} alt="logo2" className="w-[131px]"/>
-            </div>
-
-                <div className="lg:mx-[167px] text-center">
-                    <p className="lg:mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Help</p>
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">FAQ</p>
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Safety</p>
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Privacy</p>
+           <div className="bg-[#5D387F] text-[#FFFFFF]">
+            <div className="lg:flex grid grid-cols-2  items-center justify-center  place-items-center lg:h-[83px] h-[428px]">
+                <div className="lg:flex lg:gap-[47px]">
+                <p className="text-[12px] lg:leading-[14px] hidden lg:block lg:mt-[10px]">@2022 Gritgrammar</p>                    
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Careers and Culture</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">FAQ</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Newsletter</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Privacy policy</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Terms of use</p>            
                 </div>
-
-                <div className="lg:mx-[167px] text-center">
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">About Grit grammar</p>
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">About us</p>
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Terms</p>
-                    <p className="mt-[8px] lg:text-[13px] text-[11px] leading-[12px] ">Contact us</p>
-                </div>                
+                <div className="lg:flex lg:gap-[47px]">
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">About us</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Api status</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Blog</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Copyright</p>
+                <p className="text-[12px] cursor-pointer lg:leading-[14px] mt-[10px]">Contact us</p>
+                </div>
             </div>
- 
-        
-        
-
- 
-        <div className="flex items-center justify-center lg:gap-[47px] gap-5 h-[54px] bg-[#185A71] text-[#FFFFFF]">
-            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">@2022 Gritgrammar</p>
-            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">help</p>
-            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">safety</p>
-            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">privacy</p>
-            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">terms</p>
-            <p className="text-[8px] text-x cursor-pointer font-[roboto] lg:leading-[10px] ">about us</p>
-        </div>  
+            <p className="text-[12px] lg:leading-[14px] lg:hidden block text-center justify-center grid place-items-center">@2022 Gritgrammar</p>                    
+          </div>
     </div>
   )
 }
